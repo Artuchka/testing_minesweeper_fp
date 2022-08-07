@@ -1,0 +1,29 @@
+{
+  "name": "47-minesweeper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "logic.js",
+  "scripts": {
+    "start": "parcel index.html",
+
+    "test:unit": "jest --coverage",
+
+    "cy:open": "cypress open",
+    "test:e2e": "start-server-and-test start http://localhost:1234  cy:open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.4.0",
+    "jest": "^28.1.3",
+    "parcel-bundler": "^1.12.5",
+    "serve": "^14.0.1",
+    "start-server-and-test": "^1.14.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "lodash": "^4.17.21"
+  }
+}
